@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint = "Filename" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="306dp"
+        android:layout_weight="0.76"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Journal Entry" />
+
+    <Button
+        android:id="@+id/bSave"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:text="Save File" />
+
+</LinearLayout>
